@@ -1,0 +1,20 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> SOCIAL NETWORK PURCHASED PREDICTION </h1><br>
+        
+        <form method="POST", action="{{url_for('pred')}}">
+           <b> Gender :  <input type="text", name='Gender', placeholder="1-male/0-female"> <br><br>
+            Age :  <input type="text", name='Age', placeholder="year"> <br><br>
+            EstimatedSalary : <input type="text", name='EstimatedSalary', placeholder="rupees"> <br><br><br></b>
+            <input type="submit" , value='PREDICT' >
+        </form>
+
+       
+        
+    </center>
+
+    </body>
+</html>
